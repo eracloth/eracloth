@@ -105,11 +105,45 @@ let a=document.getElementById('slider-ardea'), ai=0;
 setInterval(()=>{ ai=(ai+1)%3; a.scrollTo({left:a.clientWidth*ai, behavior:'smooth'}); },3000);
 </script>
       <!-- 3. SAMARA -->
-      <div class="card"><img src="foto3.jpg" alt="Samara One Set"><span class="tag">Marbela</span></div>
+     <div class="card" style="overflow:hidden;padding:0;position:relative">
+<div id="slider-samara" style="display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth">
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="foto5.jpg" class="full" style="display:block"><span class="tag">Marbela</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="sam burg.jpeg" class="full" style="display:block"><span class="tag">Marbela</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="sam navy.jpeg" class="full" style="display:block"><span class="tag">Marbela</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="sam white.jpeg" class="full" style="display:block"><span class="tag">Marbela</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="sam detail.jpeg" class="full" style="display:block"><span class="tag">Marbela</span></div>
+</div>
+</div>
+<script>
+let sm=document.getElementById('slider-samara'), smi=0;
+setInterval(()=>{ smi=(smi+1)%5; sm.scrollTo({left:sm.clientWidth*smi, behavior:'smooth'}); },3000);
+</script>
       <!-- 4. BONITA SETELAN -->
-      <div class="card"><img src="foto4.jpg" alt="Sky Blue"><span class="tag">Sky Blue</span></div>
+      <div class="card" style="overflow:hidden;padding:0;position:relative">
+<div id="slider-bonita" style="display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth">
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="bon butter.jpeg" class="full" style="display:block"><span class="tag">Sky Blue</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="bon taupe pink.jpeg" class="full" style="display:block"><span class="tag">Sky Blue</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="couple bonita.jpeg" class="full" style="display:block"><span class="tag">Sky Blue</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="foto4-4.jpg" class="full" style="display:block"><span class="tag">Sky Blue</span></div>
+</div>
+</div>
+<script>
+let bn=document.getElementById('slider-bonita'), bni=0;
+setInterval(()=>{ bni=(bni+1)%4; bn.scrollTo({left:bn.clientWidth*bni, behavior:'smooth'}); },3000);
+</script>
       <!-- 5. MARBELA -->
-      <div class="card full"><img src="foto5.jpg" class="full" alt="Marbela"><span class="tag">Setelan Samara Melayu</span></div>
+      <div class="card full" style="overflow:hidden;padding:0;position:relative">
+<div id="slider-marbela" style="display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth">
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="marbela all.jpeg" class="full" style="display:block"><span class="tag">Setelan Samara Melayu</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="marbela skyblue.jpeg" class="full" style="display:block"><span class="tag">Setelan Samara Melayu</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="marbela peach.jpeg" class="full" style="display:block"><span class="tag">Setelan Samara Melayu</span></div>
+<div style="min-width:100%;scroll-snap-align:center;position:relative"><img src="marbela stone.jpeg" class="full" style="display:block"><span class="tag">Setelan Samara Melayu</span></div>
+</div>
+</div>
+<script>
+let mb=document.getElementById('slider-marbela'), mbi=0;
+setInterval(()=>{ mbi=(mbi+1)%4; mb.scrollTo({left:mb.clientWidth*mbi, behavior:'smooth'}); },3000);
+</script>
     </div>
 
     <span class="label">✨ Best Seller & New Arrival ✨</span>
